@@ -19,15 +19,15 @@ Responsividade para Todas as Telas: Independentemente do dispositivo utilizado, 
 
 <img src="https://github.com/cezardev07/youtube-ui/blob/main/public/channel-desktop.png?raw=true" width="100%"/>
 
+### Tablet:
+
+<img src="https://github.com/cezardev07/youtube-ui/blob/main/public/ipad-home.png?raw=true" width="100%"/>
+
 ### Mobile:
 
 <div align="center">
 <img src="https://github.com/cezardev07/youtube-ui/blob/main/public/mobile-home.png?raw=true" width="100%"/>
 </div>
-
-### Tablet:
-
-<img src="https://github.com/cezardev07/youtube-ui/blob/main/public/ipad-home.png?raw=true" width="100%"/>
 
 ### Principais Recursos e Funcionalidades:
 
