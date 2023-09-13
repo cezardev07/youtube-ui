@@ -21,9 +21,8 @@ Responsividade para Todas as Telas: Independentemente do dispositivo utilizado, 
 
 ### Mobile:
 
-<div style="display: flex; gap: 5px;">
-<img src="https://github.com/cezardev07/youtube-ui/blob/main/public/mobile-home.png?raw=true" width="50%"/>
-<img src="https://github.com/cezardev07/youtube-ui/blob/main/public/mobile-channel.png?raw=true" width="50%"/>
+<div align="center">
+<img src="https://github.com/cezardev07/youtube-ui/blob/main/public/mobile-home.png?raw=true" width="100%"/>
 </div>
 
 ### Tablet:
