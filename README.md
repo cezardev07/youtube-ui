@@ -26,7 +26,7 @@ Responsividade para Todas as Telas: Independentemente do dispositivo utilizado, 
 ### Mobile:
 
 <div align="center">
-<img src="https://github.com/cezardev07/youtube-ui/blob/main/public/mobile-home.png?raw=true" width="100%"/>
+<img src="https://github.com/cezardev07/youtube-ui/blob/main/public/mobile-home.png?raw=true"/>
 </div>
 
 ### Principais Recursos e Funcionalidades:
