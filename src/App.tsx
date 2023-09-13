@@ -28,10 +28,10 @@ export const App = () => {
         <Header/>
         <Main>
           <Routes>
-            <Route path="/" element={<Home/>}/>
-            <Route path="/channel" element={<Channel/>}/>
-            <Route path="/watch/:video" element={<Watch/>}/>
-            <Route path="/search_video/:watch" element={<Search/>}/>
+            <Route path="/youtube-ui/" element={<Home/>}/>
+            <Route path="/youtube-ui/channel" element={<Channel/>}/>
+            <Route path="/youtube-ui/watch/:video" element={<Watch/>}/>
+            <Route path="/youtube-ui/search_video/:watch" element={<Search/>}/>
             <Route path="*" element={<Default/>}/>
           </Routes>
         </Main>

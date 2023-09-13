@@ -31,7 +31,7 @@ export const VideoPreviewComponent = ({ dataVideo } : { dataVideo : TypeVideoPre
       className="video-preview"
     >
       <Link
-        to={`/watch/${dataVideo.url_video}`}
+        to={`/youtube-ui/watch/${dataVideo.url_video}`}
         className="thumbnail">
         <img 
           src={dataVideo.thumbnail} 
@@ -42,7 +42,7 @@ export const VideoPreviewComponent = ({ dataVideo } : { dataVideo : TypeVideoPre
       </Link>
       <div className="content">
         <Link
-          to="/channel"
+          to="/youtube-ui/channel"
           className="channel"
         >
           <img 
@@ -53,7 +53,7 @@ export const VideoPreviewComponent = ({ dataVideo } : { dataVideo : TypeVideoPre
         </Link>
         <div className="context">
           <Link 
-            to={`/watch/${dataVideo.url_video}`}
+            to={`/youtube-ui/watch/${dataVideo.url_video}`}
             className="description"
             >
             <p 
@@ -63,14 +63,14 @@ export const VideoPreviewComponent = ({ dataVideo } : { dataVideo : TypeVideoPre
             </p>
           </Link>
           <Link 
-            to="/channel"
+            to="/youtube-ui/channel"
             className="name-channel"
             title={dataVideo.channel}
           >
             {dataVideo.channel}
           </Link>
           <Link 
-            to={`/watch/${dataVideo.url_video}`}
+            to={`/youtube-ui/watch/${dataVideo.url_video}`}
             className="date"
             title={dataVideo.date}
           >

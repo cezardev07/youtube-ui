@@ -50,7 +50,7 @@ export const Watch = () => {
               <nav>
                 <ul className="ul-channel">
                   <Link
-                    to="/channel" 
+                    to="/youtube-ui/channel" 
                     className="avatar"
                   >
                     <img 
@@ -60,7 +60,7 @@ export const Watch = () => {
                   </Link>
                   <div className="wrapper-info">
                     <Link
-                      to="/channel"
+                      to="/youtube-ui/channel"
                       className="name"
                     >
                       <p>
@@ -68,7 +68,7 @@ export const Watch = () => {
                       </p>
                     </Link>
                     <Link
-                      to="/channel" 
+                      to="/youtube-ui/channel" 
                       className="subs"
                     >
                       <span>

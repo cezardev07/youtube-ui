@@ -10,7 +10,7 @@ export const Mobile = () => {
   const navigate = useNavigate()
 
   const handleNavigate = () => {
-    navigate("/")
+    navigate("/youtube-ui/")
     handleScroll()
   }
 

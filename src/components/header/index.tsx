@@ -25,13 +25,13 @@ export const Header = () => {
 
   const handleSearchSubmit = (event: { preventDefault: () => void; }) => {
     event.preventDefault()
-    navigate(`/search_video/${value.toLocaleLowerCase()}`)
+    navigate(`/youtube-ui/search_video/${value.toLocaleLowerCase()}`)
     setValue("")
     handleScroll()
   }
 
   const handleNavegateChannel = () => {
-    navigate(`/channel`)
+    navigate(`/youtube-ui/channel`)
     handleScroll()
   }
   
@@ -42,7 +42,7 @@ export const Header = () => {
       <BarProgress valueProgress={valueBarProgress}/>
       <nav>
         <Link 
-          to="/" 
+          to="/youtube-ui/" 
           className="logo"
           onClick={() => handleScroll()}  
         >

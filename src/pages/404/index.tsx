@@ -9,7 +9,7 @@ export const Default = () => {
       <div className="wrapper">
         <img src={Monkey} title="Pagina não encontrada"/>
         <h2>404 Pagina não encontrada</h2>
-        <Link to="/">clique aqui para voltar à pagina inicial</Link>
+        <Link to="/youtube-ui/">clique aqui para voltar à pagina inicial</Link>
       </div>
     </Container>
   )
